@@ -131,7 +131,7 @@ wasm_client_anchor = { path = "crates/wasm_client_anchor", version = "0.8.2" }
 wasm_client_solana = { path = "crates/wasm_client_solana", version = "0.9.0" }
 
 # forks
-async-tungstenite = { default-features = false, version = "^0.28.1" }
+async-tungstenite = { default-features = false, version = "^0.31.0" }
 getrandom = { default-features = false, version = "^0.3" }
 solana-account-decoder-client-types-wasm = { path = "forks/solana-account-decoder-client-types-wasm", version = "2.3.12" }
 solana-account-decoder-wasm = { path = "forks/solana-account-decoder-wasm", version = "2.3.12" }
